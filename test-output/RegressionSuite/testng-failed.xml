@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegressionSuite]">
+  <test name="RegressionTest(failed)">
+    <classes>
+      <class name="testCases.VerifyLoginPageWithReports">
+        <methods>
+          <include name="testHomePage"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.VerifyLoginPageWithReports -->
+      <class name="testCases.VerifyLoginPageWithReports1">
+        <methods>
+          <include name="testHomePage"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testCases.VerifyLoginPageWithReports1 -->
+    </classes>
+  </test> <!-- RegressionTest(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->
